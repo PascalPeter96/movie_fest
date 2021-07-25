@@ -16,6 +16,9 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Popular Movie Fest'),
         centerTitle: true,
+        actions: [
+          IconButton(onPressed: (){}, icon: Icon(Icons.search),),
+        ],
       ),
       body: Obx(() {
         if(movieController.isLoading.value)
