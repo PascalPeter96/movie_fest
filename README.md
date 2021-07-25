@@ -8,6 +8,7 @@
 ## Key Features
 - Movie Homepage Screen showing movies in a List View
 - Movie Details Screen
+- Hero Transitions
 - Splash Screen
 
 # Technology
