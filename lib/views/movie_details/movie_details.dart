@@ -43,13 +43,13 @@ class MovieDetails extends StatelessWidget {
                   ),
                 ),
                     Padding(
-                      padding: const EdgeInsets.all(4.0),
+                      padding: const EdgeInsets.all(2.0),
                       child: Align(
                         alignment: Alignment.topRight,
                         child: Text('${movie!.voteAverage.toString()} ⭐',
                           style: TextStyle(
                               color: Colors.deepOrange,
-                            fontSize: 25,
+                            fontSize: 24,
                             fontWeight: FontWeight.bold
                           ),),
                       ),

@@ -18,6 +18,11 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
       ),
       body: Obx(() {
+        if(movieController.isLoading.value)
+          return Center(
+            child: CircularProgressIndicator(),
+          );
+        else
         return ListView.builder(
           physics: BouncingScrollPhysics(),
             itemCount: movieController.movieList.length,
