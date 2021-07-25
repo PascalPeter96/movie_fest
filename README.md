@@ -1,16 +1,22 @@
-# movie_fest
+# Movie Fest App
 
-Simple Movie App Showing Popular movies' List
+## Description
+- Simple Movie App made in Flutter showing Popular movies' List
+- Has detailed overview of popular movies at that time
+- All this to help users know more about the best movies out there
 
-## Getting Started
+## Key Features
+- Movie Homepage Screen showing movies in a List View
+- Movie Details Screen
+- Hero Transitions
+- Splash Screen
 
-This project is a starting point for a Flutter application.
+# Technology
+-Flutter
+-Getx State Management and navigation
+-TMDB API
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Installation
+- You can clone this github repo or download the zipped folder
+- Extract it in a desired storage location and open it with an IDE like VS Code, Intellij or Android Studio
+- Requires an Internet connection for data Fetch from API hence also download required packages/dependencies, run(build) and the app shall be working.
