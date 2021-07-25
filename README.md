@@ -10,6 +10,7 @@
 - Movie Details Screen
 - Hero Transitions
 - Splash Screen
+- App Screenshots included
 
 # Technology
 -Flutter
@@ -20,3 +21,4 @@
 - You can clone this github repo or download the zipped folder
 - Extract it in a desired storage location and open it with an IDE like VS Code, Intellij or Android Studio
 - Requires an Internet connection for data Fetch from API hence also download required packages/dependencies, run(build) and the app shall be working.
+
